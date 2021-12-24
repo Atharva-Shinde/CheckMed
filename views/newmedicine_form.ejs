@@ -1,0 +1,30 @@
+<!-- this file is created bc we want same buttons for both new article and edit article  -->
+
+<div class="form-group">
+    <label for="name">Name of Medicine</label>
+    <input required type="text" name="name" id="name" class="form-control">
+</div>
+
+<div class="form-group">
+    <label for="usedfor">Used when person has</label>
+    <textarea name="usedfor" id="usedfor" class="form-control"></textarea>
+</div>
+
+<div class="form-group">
+    <label for="category">Which of the following category this medicine falls under</label><br>
+    <input type="checkbox" id="painkiller" name="painkiller" value="painkiller">
+    <label for="painkiller">Pain Killer</label><br>
+    <input type="checkbox" id="fever" name="fever" value="fever">
+    <label for="fever">Fever</label><br>
+    <input type="checkbox" id="cold" name="cold" value="cold">
+    <label for="cold">Cold</label><br>
+    <input type="checkbox" id="headache" name="headache" value="headache">
+    <label for="headache">Head-ache</label><br>
+    <input type="checkbox" id="infection" name="infection" value="infection">
+    <label for="infection">Infection</label><br>
+    <input type="checkbox" id="diarrhoea" name="diarrhoea" value="diarrhoea">
+    <label for="diarrhoea">Diarrhoea</label><br>
+</div>
+
+<a href="/" class="btn btn-secondary">Cancel</a>
+<button type="submit" class="btn btn-primary">Save</button>

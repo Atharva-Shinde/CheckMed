@@ -7,10 +7,11 @@ const medicinesSchema = new mongoose.Schema({
     usedfor:{
         type:String
     },
-    // category:{
-    //     type:String,
-    //     required:true
-    // },
+    categories:{
+        type:String,
+        required: true,
+        enum:['PAINKILLER', 'FEVER', 'COLD']
+    },
 
 })
 

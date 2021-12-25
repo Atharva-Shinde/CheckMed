@@ -19,7 +19,7 @@ router.post('/', async(req,res)=>{
     }
     catch(e){
         console.log(e)
-        res.render('/newmedicine')
+        res.render('newmedicine')
     }
 })
 

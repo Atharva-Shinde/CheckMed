@@ -1,7 +1,7 @@
 # med
 
 #### routes 
-/home
-/all-medicines
-/categories
-/new-medicine
+/home <br>
+/all-medicines <br>
+/categories <br>
+/new-medicine <br>

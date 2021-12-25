@@ -9,16 +9,18 @@
     <title>Document</title>
 </head>
 
-    <body>        
-        <%- include ('layout.ejs') %>
-                <% medicines.forEach( medicine => { %>
-        <div class="card mt-4">
-            <div class="card-body">
-                <h3 class="card-title"><%= medicine.name %></h3>
-                <div class="card-text mb-2"><%= medicine.usedfor %></div>
-                <div class="card-subtitle text-muted mb-2"><%= medicine.category %></div>
+    <body>  
+        <div class="container">      
+            <%- include ('layout.ejs') %>
+                    <% medicines.forEach( medicine => { %>
+            <div class="card mt-4">
+                <div class="card-body">
+                    <h3 class="card-title"><%= medicine.name %></h3>
+                    <div class="card-text mb-2"><%= medicine.usedfor %></div>
+                    <div class="card-subtitle text-muted mb-2"><%= medicine.category %></div>
+                </div>
             </div>
+            <% })%>
         </div>
-        <% })%>
     </body>
 </html>

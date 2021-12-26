@@ -18,8 +18,8 @@
     </style>
 </head>
 <body>
+    <%- include ('layout.ejs') %>
     <div class="container">
-        <%- include ('layout.ejs') %>
         <p class="heading">New Medicine</p>
         <form action="all-medicines" method="POST">
             <%- include('newmedicine_form.ejs')%>

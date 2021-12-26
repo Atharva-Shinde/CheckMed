@@ -21,9 +21,9 @@
     </style>
 </head>
 
-    <body>  
+    <body> 
+        <%- include ('layout.ejs') %>
         <div class="container">  
-            <%- include ('layout.ejs') %>
             <p class="heading">All Medicines</p>
                     <% medicines.forEach( medicine => { %>
             <div class="card mt-4">

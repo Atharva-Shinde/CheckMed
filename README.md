@@ -1,4 +1,4 @@
-# med
+# CheckMed
 
 #### routes 
 /home <br>

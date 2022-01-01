@@ -1,6 +1,6 @@
 # CheckMed
 
-#### routes 
+#### routes -
 /home 
 <img width="1440" alt="Screenshot 2021-12-28 at 2 16 57 AM" src="https://user-images.githubusercontent.com/69111235/147506253-f0ea2bf2-1d14-4297-a7ba-be0f4103be6b.png"><br><br>
 
